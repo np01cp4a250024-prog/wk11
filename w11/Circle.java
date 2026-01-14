@@ -25,7 +25,6 @@ public class Circle extends Shape implements Drawable {
         return 2 * 3.14 * radius;
     }
 
-    @Override
     public void draw() {
         System.out.println("Drawing a Circle.");
     }
